@@ -1,6 +1,6 @@
 # Venkata Mangalampeta Portfolio
 
-A responsive, multi-page personal portfolio built with semantic HTML and modern CSS for Lab 2.
+A responsive, multi-page personal portfolio continued through Lab 3 with semantic HTML, modern CSS, and JavaScript-enhanced navigation, theming, and contact behavior.
 
 ## Pages
 
@@ -19,12 +19,12 @@ python3 -m http.server 8000
 
 Then open `http://localhost:8000`.
 
-## Lab techniques demonstrated
+## Lab 3 techniques demonstrated
 
-- A readable `max-width` and centered layout
-- Flexbox navigation with current-page and hover states
-- A custom accent color
-- CSS Grid and subgrid for the contact form
-- A responsive `auto-fill` projects grid
-- Row subgrid alignment for project cards
-- Responsive typography and mobile layouts
+- A shared ES module loaded on every page
+- Navigation generated from JavaScript with automatic current-page states
+- GitHub Pages and localhost-aware internal URLs
+- External links that open in a new tab
+- Automatic, light, and dark color schemes
+- A theme preference saved across page loads with `localStorage`
+- A contact form that creates a correctly percent-encoded email draft

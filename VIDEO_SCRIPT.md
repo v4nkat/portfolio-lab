@@ -1,17 +1,17 @@
 # One-minute demo script
 
-**0:00–0:15 — Personalization**
+**0:00–0:12 — Portfolio overview**
 
-“This is my responsive portfolio for Venkata Mangalampeta. The home page uses my portrait and highlights my UC San Diego data science background, backend and data skills, and production engineering focus.”
+“This is my multi-page portfolio for Venkata Mangalampeta. Lab 3 adds shared JavaScript across the Home, Projects, CV, and Contact pages.”
 
-**0:15–0:34 — Pages and content**
+**0:12–0:28 — JavaScript navigation**
 
-“The navigation links to my real projects, a CV customized from my résumé, and a contact form. The Projects page contains public GitHub work plus clearly labeled engineering work from my experience. CSS Grid and subgrid keep the cards and form fields aligned.”
+“The navigation is generated from one array instead of being repeated in every HTML file. As I move between pages, JavaScript automatically highlights the current page, and the external GitHub link opens in a new tab.”
 
-**0:34–0:49 — Responsive behavior**
+**0:28–0:48 — Theme controls and persistence**
 
-“As I resize the browser, the project grid automatically changes the number of columns, the home hero stacks vertically, and the contact form switches to a one-column layout without touching the viewport edges.”
+“The theme menu supports Automatic, Light, and Dark modes. I’ll choose Dark, refresh the page, and show that local storage remembers the preference; then I’ll return it to Automatic.”
 
-**0:49–0:59 — What I learned**
+**0:48–0:59 — What I learned**
 
-“The most interesting thing I learned was that subgrid lets nested content share the same row or column tracks, which creates clean alignment without using tables or hard-coded dimensions.”
+“The most interesting thing I learned was how one shared JavaScript module can create consistent navigation and persistent behavior across an entire multi-page website.”
